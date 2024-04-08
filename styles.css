@@ -70,14 +70,15 @@ header{
     display: flex;
     justify-content: center;
     align-items : center;
+    padding: 30px;
 }    
 
 .square-text {
     flex: 0, 1;
-    margin: 30px;    
     color: #1F2937;
     font-size: 18px;
     text-align: center;
+    align-items: center;
     
 }
 
@@ -88,4 +89,28 @@ header{
     border-width: 3px;
     border-radius: 10px;
     border-color: #3882F6;
+}
+
+.quote-section {
+    background-color: #E5E7EB;    
+    padding: 200px;
+
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+.name-div {
+    text-align: right;
+}
+.name {
+    align-content: right;
+    font-size: 24px;
+    font-weight: 800;
+    color: #1F2937;
 }
